@@ -77,12 +77,11 @@ while True:
 		for i in range(len(animation)):
 			time.sleep(0.5)
 			sys.stdout.write("\r[+] Preparing... " + animation[i % len(animation)])
-			sys.stdout.flush()
-		print(f"\n[-] WORK ON ID: {referrer}")    
+			sys.stdout.flush()    
 		print(f"[:)] {g} GB has been successfully added to your account.")
 		print(f"[#] Total: {g} Good {b} Bad")
-		print("[*] After 18 seconds, a new request will be sent.")
-		time.sleep(18)
+		print("[*] After 30 seconds, a new request will be sent.")
+		time.sleep(30)
 	else:
 		b = b + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
