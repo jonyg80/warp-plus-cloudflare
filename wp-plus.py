@@ -80,8 +80,8 @@ while True:
 			sys.stdout.flush()    
 		print(f"[:)] {g} GB has been successfully added to your account.")
 		print(f"[#] Total: {g} Good {b} Bad")
-		print("[*] After 30 seconds, a new request will be sent.")
-		time.sleep(30)
+		print("[*] After 50 seconds, a new request will be sent.")
+		time.sleep(50)
 	else:
 		b = b + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
